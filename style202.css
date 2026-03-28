@@ -1,0 +1,639 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(51, 50, 50);
+}
+nav{
+    width: 100%vw;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.outer{
+    display: flex;
+    width: 35%;
+    margin-left: 10%;
+}
+.logo svg{
+    width: 100px;
+    height: 100px;
+    fill: white;
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    width: 50%;
+}
+.main-content{
+    width: 100%vw;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.big-content{
+    width: 650px;
+    height: 130px;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 47px;
+    text-align: center;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    padding-top: 50px;
+    color: white;
+}
+.big-content h3{
+    font-size: 16px;
+}
+.btn-1{
+    padding: 16px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: black;
+    background-color:rgb(244, 191, 205);
+    outline: none;
+}
+.btn-2{
+      padding: 16px 22px;
+      text-align: center;
+      font-size: 14px;
+    border-radius: 50px;
+    font-weight: 900;
+    border: rgb(167, 162, 156);
+
+}
+.btn-1:hover{
+    transform: scale(1.03);
+}
+.btn-2:hover{
+    transform: scale(1.03);
+}
+.caption{
+    width: 450px;
+    height: 6rem;
+    color: white;
+    font-size: 12px;
+    letter-spacing: .8px;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    margin-left:70px;
+}
+.portion-2{
+    width: 100%vw;
+    height: 9rem;
+    background-color: ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.portion-2 h1{
+    text-align: center;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-seri;
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading-2{
+    width: 620px;
+    height: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.portion-3{
+    width: 100%vw;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+.sub-1{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.sub-01 h2{
+   text-decoration-line:underline;
+}
+.sub-01{
+    width: 270px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    font-size: 12px;
+}
+.sub-001{
+      width: 100px;
+    height: 80px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    color: white;
+      padding-top: 10px;
+      justify-content: center;
+     
+}
+.sub-001 svg{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 30px;
+    fill: white;
+    text-align: center;
+}
+.sub-2{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+   text-align: center;
+   border-bottom: 2px solid white;
+    
+}
+.he1{
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   display: flex;
+}
+.he1 svg{
+    text-align: center;
+    padding-top: 20px;
+     height: 60px;
+   width: 60px;
+}
+.he2{
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   display: flex;
+   padding-top: 30px;
+}
+.he2 svg{
+    text-align: center;
+   height: 60px;
+   width: 60px;
+}
+.payment{
+    width: 100%vw;
+    height: 500px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pay-main{
+    margin-top: 80px;
+}
+.pay-main h1{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.second{
+    width: 700px;
+    text-align: center;
+    padding-top: 10px;
+}
+.second p{
+    text-align: center;
+    font-size: 16px;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.card-logo{
+    margin-top: 15px;
+}
+.card-portion a{
+    color: white;
+    font-size: 18px;
+}
+.plans-section{
+    width: 100%vw;
+    height: 300px;
+    display: flex;
+     margin-top: 100px;
+     justify-content: center;
+      gap: 50px;
+}
+.section-1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.section-1 h1{
+font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+font-size: 32px;
+font-weight: 700;
+color: #fff;
+}
+.section-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-2 li{
+list-style: none;
+padding-left: 10px;
+gap: 5px;
+text-align: justify;
+}
+.section-3 {
+    display: flex;
+    gap: 10px;
+   flex-direction: column;
+}
+.main-foot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card {
+  width: 350px;
+  height:520px;
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  color: white;
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  margin-top: 50px;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 1px;
+  background: #f2c6c6;
+  color: black;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+  
+}
+
+.header h2 {
+  margin: 10px 0 5px;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+}
+
+.logo {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-top: 15px;
+  padding-right: 220px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 5px 0;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.subtext {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bbb;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 15px 0;
+}
+
+.features {
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.features li {
+  margin-bottom: -10px;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+  font-weight: 400;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #f2c6c6;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+  font-size: 16px;
+}
+
+
+.primary-btn:hover{
+    transform: scale(1.06);
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid #aaa;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+.secondary-btn:hover{
+     transform: scale(1.03);
+}
+
+.footer {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+  letter-spacing: 1px;
+}
+.mid{
+    display: flex;
+    width: 100%vw;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 50px;
+}
+.mid .card{
+    width: 100%vw;
+    height: 390px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mid .footer{
+    letter-spacing: 1.5px;
+}
+.question{
+    width: 100%vw;
+    height: 300px;
+    color: white;
+}
+.part-1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: potifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+    font-weight: 700;
+}
+.part-1 a{
+    color: white;
+    padding-left:5px;
+}
+.part-1 h2{
+    font-size: 32px;
+}
+.para{
+    width: 100%vw;
+    height: 500px;
+    background-color: rgb(51, 50, 50);
+    justify-content: ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+     
+}
+.bellet-boxes{
+    width: 82%;
+    height: 60px;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+   font-size: 18px;
+   font-weight: 900;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   color: white;
+    border-bottom: 1px solid gray;
+   
+}
+.bellet-boxes p:hover{
+    text-decoration: underline;
+}
+.bellet-boxes:hover {
+  box-shadow: 0 0 6px #fff;
+  outline: none;
+  background-color: #4f4f4f;
+}
+.bellet-boxes svg{
+    color: #fff;
+ transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+    fill: white;
+    margin-left: auto;
+    margin-right: 15px;
+}
+footer{
+    width: 100%vw;
+    height: 300px;
+    background-color:rgb(51, 50, 50);
+}
+.foo{
+     justify-content:space-evenly ;
+    display: flex;
+}
+.foot-1{
+    width: 150px;
+    height: 20px;
+}
+.foot-1 svg{
+width: 100px;
+    height: 30px;
+    fill: #fff;
+}
+.foot-2{
+    width: 150px;
+    height: 130px;
+}
+.foot-2 li{
+    list-style: none;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.foot-3{
+     width: 150px;
+    height: 180px;
+}
+.foot-3 li{
+    list-style: none;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.foot-4{
+     width: 150px;
+    height: 180px;
+}
+.foot-4 li{
+    list-style: none;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.foot-5{
+     width: 150px;
+    height: 180px;
+}
+.foot-5 li{
+    list-style: none;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.foot-6{
+     width: 250px;
+    height: 180px;
+    display: flex;
+    gap: 20px;
+}
+i{
+  font-size: 30px; 
+}
+.icons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 50%;
+    outline: none;
+    background-color:rgba(255,255,255, 0.1);
+   
+}
+.foot-2 li:hover{
+color: green;
+}
+.foot-3 li:hover{
+color: green;
+}
+.foot-4 li:hover{
+color: green;
+}
+.foot-5 li:hover{
+color: green;
+}
+.last-portion{
+    display: flex;
+}
+.listed-1{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 12px;
+    padding-left: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.listed-1 li{
+     font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 400;
+}
+.listed-1 li:hover{
+    color: green;
+}
+.listed-2 span{
+     color: rgb(145, 148, 150);
+     font-size: 12px;
+     font-weight: 400;
+     font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif; 
+}
+.listed-2{
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+}
+.listed-2 path{
+    color: white;
+}
+.listed-2 li{
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 400;
+}
+.listed-2 span:hover{
+color: green;
+}
+.ab{
+    margin-top: 10px;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 400;
+}
+.ab:hover{
+    color: green;
+}
